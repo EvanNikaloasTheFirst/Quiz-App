@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+    grid-template-areas: "header"
+                            "main"
+                            "footer";
+}
+
+.card{
+    position: relative;
+    background-color: yellow;
+    border-radius: 50px;
+   width: 50vw;
+   top: 20vh;
+   height: 50vh;
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+}
+
+#true
+{
+    height: 5vh;
+    width: 10vh;
+    position: relative;
+    top: 150px;
+}
+#false {
+    position: relative;
+    height: 5vh;
+    width: 10vh;
+    top: 150px;
+}
+#startBtn {
+    position: relative;
+    height: 5vh;
+    width: 10vh;
+    top: 20vh;
+    display: block;
+    margin: 0 auto;
+   
+
+}
+#questions {
+    font-size: fit-content;
+}
+#score{
+    position: relative;
+top: 150px;
+}
+header{
+    text-align: center;
+
+}
+
+
+
+footer{
+    text-align: center;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+}
