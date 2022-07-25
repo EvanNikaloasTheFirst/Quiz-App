@@ -1,7 +1,13 @@
-Quiz API:
+QUIZ QUESTIONS
 
-Here I took it upon myself to create a project using my knowledge from a youtube course I took about web APIs (https://www.youtube.com/watch?v=GZvSYJDk-us).
+This application is available online now:
 
-I expanded my knowledge and problem-solving abilities as I used resources such as StackOverflow instead of using Youtube tutorials as I'm looking to improve my logic skillset.
+https://evannikaloasthefirst.github.io/Quiz-App/
 
-To use the application you simply answer a question and once the response to the question has been displayed (Correct / Incorrect) the True or False buttons are disabled and prompt you to proceed to the next question.
+
+
+INSTRUCTIONS:
+Click the true or false button when the questions are displayed. Once you have answered a question the option buttons will be removed prompting you to move on to the next question.
+
+DESCRIPTION:
+Following on from my initial weather project where I was implementing an API I continued to create another project although this one was more interactive. Here I used similar functions as in the Weather project although this time I also covered topics such as Mapping, pushing data into an array and also using counters to iterate over arrays.
