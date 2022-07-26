@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Edu SA Beginner', cursive;
+    background-image: url(citydrop.jpeg);
+    grid-template-areas: "header"
+                            "main"
+                            "footer";
+}
+
+.card{
+    position: relative;
+ /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+   width: 50vw;
+   top: 20vh;
+   height: 50vh;
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+   color: white;
+}
+
+#quiz {
+    font-size: 2.5rem;
+
+}
+
+.options
+{
+    height: 5vh;
+    width: 10vh;
+    position: relative;
+    top: 150px;
+}
+#false {
+    position: relative;
+    height: 5vh;
+    width: 10vh;
+    top: 150px;
+}
+#startBtn {
+    position: relative;
+    height: 5vh;
+    width: 10vh;
+    top: 20vh;
+    display: block;
+    margin: 0 auto;
+   
+
+}
+#questions {
+    font-size: fit-content;
+}
+#score{
+    position: relative;
+top: 200px;
+}
+header{
+    text-align: center;
+
+}
+
+
+
+
+footer{
+    text-align: center;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+}
