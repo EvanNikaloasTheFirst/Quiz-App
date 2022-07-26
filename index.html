@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="quizApp.js"></script>
+    <script src="quizApp.js" defer></script>
     <link rel="stylesheet" href="main.css">
     <title>Quiz App</title>
 </head>
@@ -16,12 +16,13 @@
         
         <div class="card">
             <h2 id="score">0</h2>
-            <p>Quiz</p>
+            <p id="quiz">Quiz</p>
             <p id="questions">Questions</p>
-            <button id="true">True</button>
-            <button id="false">False</button>
+            <p id="response">Correct/Incorrect</p>
+            <button class="options" id="trueBtn" data-number="1">True</button>
+            <button class="options"id="falseBtn" data-number="2">False</button>
 
-            <button id="startBtn">START</button>
+            <button id="startBtn">Question</button>
         </div>
     </main>
 
